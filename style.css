@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 700px;
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+.span-color{
+    color: rgb(250, 175, 35);
+}
+.half-width img{
+    width: 80%;
+}
+.heading-border{
+    border-left: 5px solid salmon;
+}
+.anchor-button{
+    text-decoration: none;
+    background: lightsalmon;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+h2{
+    font-size: 40px;
+}
+
+/* card start */
+.card-section{
+    margin-bottom: 50px;
+}
+.card-section h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+.card{
+    width: 33.33%;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.mission-bg{
+    background: lightblue;
+}
+
+.vission-bg{
+    background: lightsalmon;
+}
+
+.goals-bg{
+    background: lightgreen;
+}
+.card img{
+    width: 65%;
+    height: 280px;
+}
+
+
+.card-body{
+    padding: 5px;
+    text-align: justify;
+}
+.card-area{
+    display: flex;
+}
+
+.clear{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* card end */
+/* contact start */
+.contact-section h1{
+    text-align: center;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  .contact-address{
+      text-align: center;
+  }
+  /* contact end */
+  /* footer start */
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    background-color: rgb(4, 0, 17);
+    color: white;
+    text-align: center; 
+}
+footer .footer-span{
+    color:rgb(235, 54, 90);
+}
+
+/* footer End */
